@@ -53,7 +53,10 @@
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.1.0",
     "ember-wormhole": "^0.5.0",
-    "mobiledoc-kit": "git+https://github.com/dbbk/mobiledoc-kit.git"
+    "npm-git-install": "^0.2.0"
+  },
+  "gitDependencies": {
+    "mobiledoc-kit": "https://github.com/dbbk/mobiledoc-kit.git"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
