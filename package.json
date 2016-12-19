@@ -11,7 +11,8 @@
     "start": "ember server",
     "test": "ember try:testall",
     "update-changelog": "conventional-changelog -i CHANGELOG.md -r 0 -s",
-    "version": "npm run update-changelog && git add CHANGELOG.md"
+    "version": "npm run update-changelog && git add CHANGELOG.md",
+    "install": "npm-git install"
   },
   "repository": "bustlelabs/ember-mobiledoc-editor",
   "engines": {
